@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # contoh penggunaan
-# sudo ./find_files.sh /home/user/pictures .jpg
+# sudo ./1-find-files-by-extension.sh /home/user/pictures .jpg
 
 # check apakah inputan sudah benar
 if [ "$#" -ne 2 ]; then
