@@ -139,22 +139,22 @@ Untuk menjalankan secara manual, kita harus menjalankan service bagian secara te
 
 * Menjalankan Backend
 
-    1. Buka terminal di direktori `5-parking-pos-app/be-parking-pos`
-    2. Jalankan aplikasi backend (Spring Boot):
+    - Buka terminal di direktori `5-parking-pos-app/be-parking-pos`
+    - Jalankan aplikasi backend (Spring Boot):
     ```bash
     mvn spring-boot:run
     ```
-    3. Aplikasi backend akan berjalan pada `http://localhost:8080`
+    - Aplikasi backend akan berjalan pada `http://localhost:8080`
 
 * Menjalankan Frontend
 
-    1. Buka terminal di direktori `5-parking-pos-app/fe-parking-pos`
-    2. Install dependencies:
+    - Buka terminal di direktori `5-parking-pos-app/fe-parking-pos`
+    - Install dependencies:
     ```bash
     npm install
     ```
-    3. Jalankan aplikasi:
+    - Jalankan aplikasi:
     ```bash
     npm run dev
     ```
-    4. Akses aplikasi di `http://localhost:3000`
+    - Akses aplikasi di `http://localhost:3000`
