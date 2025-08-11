@@ -28,6 +28,14 @@ public class ParkingTicket {
     private Double totalPrice;
 
     @Enumerated(EnumType.STRING)
+    @Column(name = "vehicle_type", nullable = false)
+    private VehicleType vehicleType;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "payment_type")
+    private PaymentType paymentType;
+
+    @Enumerated(EnumType.STRING)
     @Column(name = "status", nullable = false)
     private ParkingTicketStatus status;
 }
